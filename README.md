@@ -1,5 +1,10 @@
 Super Simple Calculator or ycalc ... y for yad frontend.
 
+ycalc.sh has two modes, basic and scientific.
+
+supply arguments as follows on startup
+  'exec ycalc.sh simp' or 'exec ycalc.sh vance'
+
 SSC has four memory insert buttons. These are assigned the last four results in reverse order when M+ is pressed. There is a history file ~/.ycalc.history
 in which sums and results are stored line by line. The last 4 lines are used for the memory buttons. The last result goes into M1 etc.
 
