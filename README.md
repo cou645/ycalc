@@ -9,7 +9,7 @@ or whatever, or Del to remove the last entry. Enter a new number and press '=' b
 
 For sin cos atan log and sqrt, press the relevant button first then the number to operate on, including floating point.
 
-Modulo with bc takes scale=0, meaning no floating point. So better not string operations together wwith modulo, unless whole numbers only.
+Modulo with bc takes scale=0, meaning no floating point. So better not string operations together with modulo, unless whole numbers only.
 Just calculate modulo and M+ results for use in further operations.
 
 I hope someone enjoys using it.
