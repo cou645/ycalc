@@ -5,8 +5,7 @@ ycalc.sh has two modes, basic and scientific.
 supply arguments as follows on startup
   'exec ycalc.sh simp' or 'exec ycalc.sh vance'
 
-SSC has four memory insert buttons. These are assigned the last four results in reverse order when M+ is pressed. There is a history file ~/.ycalc.history
-in which sums and results are stored line by line. The last 4 lines are used for the memory buttons. The last result goes into M1 etc.
+SSC has four memory insert buttons. Press M+ button to open a yad gui to select per button values, either from history or pasted or typed.
 
 The gui has a Clr button which removes the history file.
 Del is a backspace. After completing a calculation with '=' the formula is intact. If you want to continue editing it just use an operator '+'
@@ -18,4 +17,4 @@ Modulo with bc takes scale=0, meaning no floating point. So better not string op
 Just calculate modulo and M+ results for use in further operations.
 
 I hope someone enjoys using it.
-![Image](https://github.com/user-attachments/assets/c5ee84f5-ecaf-4d1e-8c25-ab2a0eba0b9c)
+![Image](https://github.com/user-attachments/assets/baf53444-3665-4b42-8d23-96995aaf9f1b)
